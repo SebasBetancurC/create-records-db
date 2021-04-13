@@ -1,0 +1,59 @@
+body{
+    background: url(imagenes/tudecideslm.jpg);
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position: center 0px;
+    color: #ffff;
+}
+
+h1{
+    color: #ffff;
+    margin: 0px 170px;
+    font-size: 40px; 
+    text-shadow: 5px 5px 5px #f50632;
+}
+
+h2{
+    font-size: 43px;
+    margin: 45px 100px;
+    font-family:fantasy;
+    text-shadow: 5px 5px 5px #2DACC5;
+}
+
+form{position:relative;
+    top: 0px;
+    right: 860px;
+    width: 25%;
+    border: 2px solid #2DACC5;
+    margin: 0px 0px 0px 900px;
+    padding: 20px;
+}
+
+label{
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    color: #f50632;
+    text-shadow: 5px 5px 5px #2DACC5;
+
+}
+
+input{
+    margin-bottom:15px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #41356E;
+}
+
+
+input:focus{
+    border:  1px solid #41356E;
+}
+
+input[type="button"]{
+    margin-bottom: 5px;
+    background: #f50632;
+    color: #ffff;
+    border:none;
+}
